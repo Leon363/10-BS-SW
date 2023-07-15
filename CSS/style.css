@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+body {
+    font-family: 'Poller One', cursive;
+    background-image: url('../Images/sky.jpg');
+    color: goldenrod;
+    background-attachment: fixed;
+}
+
+header, footer {
+    background-color: rgba(60, 69, 67, 0.6);
+}
+
+header {
+  
+    border-radius: 15px 15px 0 0;
+ 
+}
+.btn-danger {
+    background-color: rgba(204, 3, 35, 0.5) ;
+    color: goldenrod;
+    border: 2px solid black;
+}
+
+
+footer {
+   
+    border-radius: 0 0 15px 15px;
+    height: 6em;
+    
+}
+
+
+.btn > p {
+    font-size: 0.8em;
+}
+
+.email {
+    font-size: 1.2em;
+    color: black;
+    font-variant: small-caps;
+}
+
+.left {
+    float: left;
+    margin: 5px 15px 0 5px;
+}
+
+.right {
+    float: right;
+    margin: 5px 5px 0;
+}
+
+.border {
+    border-radius: 0 0 15px 15px;
+    border-color: goldenrod !important;
+}
+
+.farGalaxy {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* .right table {
+    border: 1px solid goldenrod;
+    border-radius: 0 0 15px 15px;
+} */
+
+.bottomRight {
+    border-bottom-right-radius: 15px;
+}
+
+.bottomLeft {
+    border-bottom-left-radius: 15px;
+}
+
+.float-start > img {
+    box-shadow: rgba(60, 69, 67, 0.6) 10px 10px;
+}
